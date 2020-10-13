@@ -1,0 +1,275 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+	z-index: 9;
+}
+.wrape{
+	background-color: #2d880d;
+    width: 100%;
+    min-height: 53px;
+    transition: all 0.3s ease;
+    box-shadow: inset 0px 3px 10px #770f0f;
+}
+.logo{
+	float: left;
+	width: 25%;
+	padding: 15px 2.5%;
+}
+.logo a img{
+	float: left;
+	border-radius: 50%;
+	width: 30px;
+}
+.logo p{
+	float: left;
+	font-family: Edwardian Script ITC;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+.nav ul li{
+	list-style-type: none;
+	float: left;
+}
+.nav ul li a{
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	padding: 15px 20px;
+}
+.nav ul li a:hover{
+	background-color: #65A0E3;
+	color: #282923;
+	border-bottom: 5px solid #0767DB;
+}
+.nav ul li a.active{
+	background-color: #65A0E3;
+	border-bottom: 5px solid #0767DB;
+}
+.conttent{
+	width: 100%;
+	padding-top: 60px;
+	z-index: -2;
+}
+.cover{
+	min-height: 500px;
+	background: url("img/cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.covercontet{
+	padding: 230px 0% 230px 70%;
+	font-family: Colonna MT;
+	font-weight: bold;
+	color: #0767DB;
+}
+.headerr{
+	font-size: 50px;
+	line-height: 40px;
+	letter-spacing: normal;
+	animation: hi 3s;
+	letter-spacing: -1px;
+	display: block;
+	overflow: hidden;
+}
+@keyframes hi{
+	0%{
+		color: red;
+		letter-spacing: -20px;
+	}
+	30%{
+		color: green;
+		letter-spacing: 20px;
+	}
+	50%{
+		color: green;
+		letter-spacing: normal;
+		transform: rotate(360deg);
+	}
+}
+.designer{
+	font-size: 30px;
+	font-weight: 200;
+	animation: text 3s infinite linear;
+	letter-spacing: -1px;
+	display: inline-block;
+	overflow: hidden;
+}
+@keyframes text{
+	0%{
+		color: red;
+		letter-spacing: -20px;
+	}
+	30%{
+		color: green;
+		letter-spacing: 2px;
+	}
+	50%{
+		color: green;
+		letter-spacing: normal;
+	}
+}
+.dream{
+	font-size: 30px;
+	padding-bottom: 20px;
+	animation: dream 3s infinite linear;
+	letter-spacing: -1px;
+	display: block;
+	overflow: hidden;
+}
+@keyframes dream{
+	0%{
+		color: red;
+		letter-spacing: -20px;
+	}
+	30%{
+		color: green;
+		letter-spacing: 2px;
+	}
+	50%{
+		color: green;
+		letter-spacing: normal;
+	}
+}
+.dream2{
+	font-size: 30px;
+	padding-bottom: 20px;
+	animation: dream2 3s infinite linear;
+	letter-spacing: -1px;
+	display: block;
+	overflow: hidden;
+}
+@keyframes dream2{
+	0%{
+		color: red;
+	}
+	30%{
+		color: #0767DB;
+		letter-spacing: 2px;
+		letter-spacing: 30px;
+	}
+	50%{
+		color: #0767DB;
+		letter-spacing: normal;
+		font-family: Algerian;
+	}
+}
+.clicker{
+	text-decoration: none;
+	color: #F4F9A0;
+	display: inline-block;
+	font-family: rockwel;
+	margin-right: 10px;
+}
+.clicker2{
+	background: #0767DB;
+	padding: 10px 20px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+}
+.clicker2:hover{
+	background: none;
+}
+.clicker2:before{
+	content: "";
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: -50%;
+	background-color: green;
+	position: absolute;
+	z-index: -1;
+	transition: all 0.3s ease;
+}
+.clicker:hover .clicker2:before{
+	left: 0px;
+}
+.clicker2:after{
+	content: "";
+	width: 50%;
+	height: 100%;
+	top: 0;
+	right: -50%;
+	background-color: green;
+	position: absolute;
+	z-index: -1;
+	transition: all 0.3s ease;
+}
+.clicker:hover .clicker2:after{
+	right: 0px;
+}
+.profiler{
+	width: 96%;
+	background-color: #95BCE5;
+	height: 350px;
+	padding: 100px 2%;
+	display: block;
+	overflow: hidden;
+}
+.profilercont{
+	width: 90%;
+	margin: 0 auto;
+}
+.speech{
+	
+}
+.speech p{
+	color: green;
+	line-height: 20px;
+}
+.block{
+	width: 44%;
+	float: left;
+	margin-right: 2.5%;
+	text-align: center;
+}
+.para{
+	font-family: Magneto;
+	font-size: 30px;
+	color: green;
+	font-weight: bold;
+	text-shadow: 0px 3px 2px #fff;
+}
+.circle{
+	width: 60%;
+	border-radius: 50%;
+	box-shadow: 0px 9px 20px 4px #4e3636;
+}
+.blockquote{
+	margin: 2% 0px 3% 2%;
+	padding: 5px 10px;
+	border-left: 5px solid green;
+	background-color: #0767DB;
+	color: #282923;
+	width: 100%;
+}
+.working{
+	width: 94%;
+	height: 600px;
+	padding: 100px 3% 0px;
+	background: #036910;
+}
+.workingrcont{
+	width: 29%;
+	float: left;
+	text-align: center;
+	background-color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	height: 270px;
+}
+.workingrcont:hover{
+	box-shadow: 2px 5px 16px 0px #0B325E, -1px 14px 17px 0px #000000;
+}
+.workingrcont img{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+}
